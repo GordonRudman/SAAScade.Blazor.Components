@@ -1,0 +1,23 @@
+<Project>
+    <PropertyGroup>
+        <!-- https://learn.microsoft.com/en-us/nuget/reference/msbuild-targets#pack-target -->
+		<!-- NuGet info -->
+        <PackageVersion>0.0.0.1</PackageVersion>
+		<AssemblyVersion>0.0.0.1</AssemblyVersion>
+		<AssemblyFileVersion>0.0.0.1</AssemblyFileVersion>
+		<PackageProjectUrl>https://saascade.com</PackageProjectUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+		<Authors>SAAScade,GordonRudman</Authors>
+		<Copyright>Copyright ©2026 SAAScade LTD</Copyright>
+
+		<!-- Warnings and Errors -->
+        <TargetFramework>net10.0</TargetFramework>
+
+		<!-- Warnings and Errors -->
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <WarningsNotAsErrors></WarningsNotAsErrors>
+        
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+</Project>

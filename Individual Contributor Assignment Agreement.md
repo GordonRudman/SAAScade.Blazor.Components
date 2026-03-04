@@ -1,4 +1,4 @@
-# Master Individual Contributor Assignment Agreement
+# Individual Contributor Assignment Agreement
 
 This Master Individual Contributor Assignment Agreement ("Agreement") is entered into between **SAAScade LTD**, a company incorporated in The Republic of Ireland ("Company"), and the individual accepting or signing this Agreement ("Contributor").
 

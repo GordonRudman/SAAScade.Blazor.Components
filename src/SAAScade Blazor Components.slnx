@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Apps/">
+    <Project Path="Saascade.Blazor.Components.Documentation.Website.Wasm/Saascade.Blazor.Components.Documentation.Website.Wasm.csproj" />
+  </Folder>
+  <Folder Name="/Library/">
+    <Project Path="Saascade.Blazor.Components.Base/Saascade.Blazor.Components.Base.csproj" Id="03ddfff9-0012-49e1-8904-4c92dc74ceb0" />
+    <Project Path="Saascade.Blazor.Components.Html/Saascade.Blazor.Components.Html.csproj" Id="cc7c7783-06c3-428d-a899-b7779a2b73fc" />
+  </Folder>
+</Solution>

@@ -1,19 +1,18 @@
 <Project>
-	<PropertyGroup>
-		<!-- Enable central package management, https://learn.microsoft.com/en-us/nuget/consume-packages/Central-Package-Management -->
-		<!-- https://blog.ostebaronen.dk/2024/11/transitive-pinning.html -->
-		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
-		<CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
-	</PropertyGroup>
-
-	<!-- packages referenced by projects -->
-	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="10.0.3" />
-		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.3" />
-		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.3"  PrivateAssets="all"/>
-	</ItemGroup>
-
-	<!-- pinned transitive packages -->
-	<ItemGroup>
-	</ItemGroup>
+  <PropertyGroup>
+    <!-- Enable central package management, https://learn.microsoft.com/en-us/nuget/consume-packages/Central-Package-Management -->
+    <!-- https://blog.ostebaronen.dk/2024/11/transitive-pinning.html -->
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+  </PropertyGroup>
+  <!-- packages referenced by projects -->
+  <ItemGroup>
+    <PackageVersion Include="Humanizer.Core" Version="3.0.1" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="10.0.3" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.3" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.3" PrivateAssets="all" />
+  </ItemGroup>
+  <!-- pinned transitive packages -->
+  <ItemGroup>
+  </ItemGroup>
 </Project>

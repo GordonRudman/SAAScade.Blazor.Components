@@ -1,0 +1,9 @@
+﻿@inherits BaseElementComponent
+<CascadingValue Name="Parent" Value="@this" IsFixed="true">
+    <h1 id="@Id" class="@GetFinalClassNames()" data-name="@Name" data-fullname="@GetFullname()" title="@Tooltip">@ChildContent</h1>
+</CascadingValue>
+@code
+{
+    [Parameter, EditorRequired]
+    public RenderFragment ChildContent { get; set; }
+}

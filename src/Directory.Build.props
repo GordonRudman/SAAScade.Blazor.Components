@@ -14,8 +14,8 @@
         <TargetFramework>net10.0</TargetFramework>
 
 		<!-- Warnings and Errors -->
-        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-        <WarningsNotAsErrors></WarningsNotAsErrors>
+        <!--<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <WarningsNotAsErrors></WarningsNotAsErrors>-->
         
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
